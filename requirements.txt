@@ -2,3 +2,5 @@
 lerobot[feetech]==0.6.1
 opencv-python==4.13.0.92   # con ventanas (NO la versión headless: cv2.imshow)
 numpy
+SpeechRecognition==3.17.0   # órdenes de voz (reconocimiento de Google: necesita internet)
+pyaudio==0.2.14             # micrófono
