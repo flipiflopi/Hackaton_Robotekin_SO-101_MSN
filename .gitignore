@@ -3,6 +3,8 @@ outputs/
 modelo/
 *.safetensors
 *.mp4
+# (el vídeo de la demo en media/ sí se sube)
+!media/*.mp4
 *.parquet
 
 # Logs de cada ejecución (solo se sube logs_demo/)

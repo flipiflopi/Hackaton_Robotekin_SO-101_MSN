@@ -17,7 +17,7 @@ Todo se maneja **por voz**, manteniendo pulsada la tecla **M** mientras se habla
 |---|---|
 | 🤗 Dataset | [FlipiFlopi007/so101_tumbada_full](https://huggingface.co/datasets/FlipiFlopi007/so101_tumbada_full) (54 episodios, 20.770 frames, 2 cámaras) |
 | 🤗 Modelo | [FlipiFlopi007/act_tumbada](https://huggingface.co/FlipiFlopi007/act_tumbada) (ACT, checkpoint 18.000) |
-| 🎥 Vídeo de la demo | _(enlace)_ |
+| 🎥 Vídeo de la demo | [media/Video_Demo.mp4](media/Video_Demo.mp4) (35 s) |
 
 <!-- Foto del montaje: guardarla como media/montaje.jpg y quitar este comentario
 ![Montaje](media/montaje.jpg)
