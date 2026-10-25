@@ -1,0 +1,4 @@
+# Python 3.12. PyTorch con CUDA se instala aparte (se usó torch 2.11.0+cu128): https://pytorch.org
+lerobot[feetech]==0.6.1
+opencv-python==4.13.0.92   # con ventanas (NO la versión headless: cv2.imshow)
+numpy

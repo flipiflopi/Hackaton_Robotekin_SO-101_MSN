@@ -1,0 +1,132 @@
+09:24:10.148 [frame 0] Consigna PCB [62.69, 36.93] mm -> px [362.20001220703125, 345.5] | geo esquinas [[289.1000061035156, 325.20001220703125], [396.29998779296875, 305.79998779296875], [405.8999938964844, 358.6000061035156], [298.70001220703125, 378.0]] | J guardada: si
+09:24:12.684 [frame 1] Yendo a la pose de seguridad (ESPACIO para parar): {'shoulder_pan': 6.0, 'shoulder_lift': -52.7, 'elbow_flex': 67.9, 'wrist_flex': -2.2, 'wrist_roll': -165.0}
+09:24:17.116 [frame 135] En la pose de seguridad
+09:24:17.670 [frame 151] Servo IBVS (PI): llevando la luz a la consigna
+09:24:17.763 [frame 154] DATO servo -56.59 28.79 I 0.0 0.0
+09:24:18.221 [frame 168] DATO servo -51.25 28.7 I 0.0 0.0
+09:24:18.720 [frame 183] DATO servo -47.32 28.55 I 0.0 0.0
+09:24:19.266 [frame 199] DATO servo -46.49 27.43 I 0.0 0.0
+09:24:19.787 [frame 215] DATO servo -44.15 23.92 I 0.0 0.0
+09:24:20.290 [frame 230] DATO servo -40.37 21.5 I 0.0 0.0
+09:24:20.786 [frame 245] DATO servo -37.21 17.78 I 0.0 0.0
+09:24:21.247 [frame 259] DATO servo -35.02 16.21 I 0.0 0.0
+09:24:21.690 [frame 272] DATO servo -30.85 14.06 I 0.0 0.0
+09:24:22.128 [frame 285] DATO servo -25.64 11.84 I 0.0 0.0
+09:24:22.592 [frame 299] DATO servo -21.92 9.99 I 0.0 0.0
+09:24:23.053 [frame 313] DATO servo -18.82 8.54 I 0.0 0.0
+09:24:23.490 [frame 326] DATO servo -16.33 7.67 I 0.0 0.0
+09:24:23.954 [frame 340] DATO servo -12.53 5.37 I 0.0 0.0
+09:24:24.418 [frame 354] DATO servo -8.43 3.71 I 0.0 0.0
+09:24:24.901 [frame 368] DATO servo -6.43 2.42 I -8.43 3.71
+09:24:25.384 [frame 383] DATO servo -2.88 1.69 I -14.86 6.13
+09:24:25.819 [frame 396] DATO servo -0.4 -0.46 I -15.0 7.82
+09:24:25.916 [frame 399] DATO servo -0.72 -0.4 I -15.0 7.82
+09:24:26.009 [frame 402] DATO servo -0.5 -0.57 I -15.0 7.82
+09:24:26.126 [frame 405] DATO servo -0.46 -0.48 I -15.0 7.82
+09:24:26.220 [frame 408] DATO servo -0.54 -0.51 I -15.0 7.82
+09:24:26.319 [frame 411] DATO servo -0.97 -0.66 I -15.0 7.82
+09:24:26.321 [frame 411] J = [[0.3180781121553401, 0.7289919279590259], [0.5448172958930083, -0.20610790066034765]]  J_ap = None
+09:24:26.325 [frame 411] Servo: CONVERGIDO
+09:24:26.328 [frame 411] Acerco la linterna 30 mm a la PCB (foco mas concentrado)
+09:24:27.114 [frame 435] Servo IBVS (PI): llevando la luz a la consigna
+09:24:27.210 [frame 438] DATO servo 1.2 -2.11 I 0.0 0.0
+09:24:27.321 [frame 441] DATO servo 1.24 -1.95 I 0.0 0.0
+09:24:27.417 [frame 444] DATO servo 0.91 -1.87 I 0.0 0.0
+09:24:27.513 [frame 447] DATO servo 1.05 -1.73 I 0.0 0.0
+09:24:27.609 [frame 450] DATO servo 1.19 -1.89 I 0.0 0.0
+09:24:27.722 [frame 453] DATO servo 1.36 -1.95 I 0.0 0.0
+09:24:27.723 [frame 453] J = [[0.3180781121553401, 0.7289919279590259], [0.5448172958930083, -0.20610790066034765]]  J_ap = None
+09:24:27.736 [frame 453] Servo: CONVERGIDO
+09:24:28.386 [frame 473] HECHO: punto iluminado y se ve verde (1.00)
+09:24:30.383 [frame 533] Referencia: punto 92% | anillo 79% | azul 49 | halo 26 px
+09:24:30.384 [frame 533] Vigilando oclusion / desvio (ESPACIO para parar)
+09:24:40.137 [frame 826] OCLUSION: no se ve la luz -> busco en la semiesfera alrededor del punto
+09:24:40.138 [frame 826] Parabolas: punto inicial guardado {'shoulder_pan': -12.4, 'shoulder_lift': -84.0, 'elbow_flex': 86.0, 'wrist_flex': 14.1, 'wrist_roll': -169.6} | P=(216,24,5) mm, D=121 mm
+09:24:41.687 [frame 831] Parabola 1/3 (+x): hasta 70 grados de la vertical, D x 1.14
+09:24:43.982 [frame 901] Servo IBVS (PI): llevando la luz a la consigna
+09:24:44.081 [frame 904] DATO servo -5.41 -0.53 I 0.0 0.0
+09:24:44.540 [frame 918] DATO servo -4.75 -0.65 I -5.41 -0.53
+09:24:45.020 [frame 932] DATO servo -2.77 -0.82 I -10.16 -1.18
+09:24:45.117 [frame 935] DATO servo -2.6 -0.46 I -10.16 -1.18
+09:24:45.214 [frame 938] DATO servo -2.9 -0.91 I -10.16 -1.18
+09:24:45.709 [frame 953] DATO servo -0.26 -0.27 I -13.07 -2.09
+09:24:45.818 [frame 956] DATO servo -0.91 -0.4 I -13.07 -2.09
+09:24:45.916 [frame 959] DATO servo -1.06 -0.73 I -13.07 -2.09
+09:24:46.014 [frame 962] DATO servo -0.93 -0.72 I -13.07 -2.09
+09:24:46.112 [frame 965] DATO servo -1.04 -0.55 I -13.07 -2.09
+09:24:46.203 [frame 968] DATO servo -1.0 -0.71 I -13.07 -2.09
+09:24:46.204 [frame 968] J = [[0.208657909413207, 0.5295033170759998], [0.5134963298468562, -0.2614347266243614]]  J_ap = None
+09:24:46.206 [frame 968] Servo: CONVERGIDO
+09:24:46.207 [frame 968] Luz recuperada (parabola +x, a mitad): confirmando 2 s...
+09:24:48.210 [frame 1028] DATO parabola +x 20.27615057525097 1.1352162027144883 1 1.0
+09:24:48.211 [frame 1028] ILUMINADO de nuevo: parabola +x, a mitad de camino (intento 1)
+09:24:50.206 [frame 1088] No pude tomar la referencia de buena iluminacion
+09:24:50.210 [frame 1088] Vigilando oclusion / desvio (ESPACIO para parar)
+09:24:55.216 [frame 1238] OCLUSION: punto iluminado 55% (ref 92%), halo 9px (ref 26) -> vuelvo a la pose de iluminacion inicial
+09:24:58.907 [frame 1349] Luz recuperada (pose inicial): confirmando 2 s...
+09:25:00.911 [frame 1409] ILUMINADO de nuevo desde la pose inicial (calidad 1.00)
+09:25:00.914 [frame 1409] Vigilando oclusion / desvio (ESPACIO para parar)
+09:25:05.946 [frame 1560] OCLUSION: punto iluminado 4% (ref 92%), halo 4px (ref 26) -> busco en la semiesfera alrededor del punto
+09:25:05.948 [frame 1560] Parabolas: punto inicial guardado {'shoulder_pan': -12.4, 'shoulder_lift': -84.0, 'elbow_flex': 86.0, 'wrist_flex': 14.1, 'wrist_roll': -169.6} | P=(216,24,5) mm, D=121 mm
+09:25:07.491 [frame 1565] Parabola 1/3 (+x): hasta 70 grados de la vertical, D x 1.14
+09:25:12.178 [frame 1706] Servo IBVS (PI): llevando la luz a la consigna
+09:25:12.274 [frame 1709] DATO servo 13.53 6.87 I 0.0 0.0
+09:25:12.820 [frame 1725] DATO servo 14.15 7.13 I 0.0 0.0
+09:25:13.376 [frame 1742] DATO servo 22.57 6.33 I 0.0 0.0
+09:25:13.376 [frame 1742] La luz no se mueve como predice J (15 -> 23 px): vuelvo a la J guardada (sin movimientos de prueba)
+09:25:13.779 [frame 1754] DATO servo 23.07 4.42 I 0.0 0.0
+09:25:14.304 [frame 1770] DATO servo 19.15 4.93 I 0.0 0.0
+09:25:14.850 [frame 1786] DATO servo 18.37 -1.12 I 0.0 0.0
+09:25:15.312 [frame 1800] DATO servo 17.46 -0.79 I 0.0 0.0
+09:25:15.744 [frame 1813] DATO servo 13.29 -0.35 I 0.0 0.0
+09:25:16.202 [frame 1827] DATO servo 8.78 1.45 I 0.0 0.0
+09:25:16.668 [frame 1841] DATO servo 2.62 1.12 I 8.78 1.45
+09:25:16.763 [frame 1844] DATO servo 3.13 1.2 I 8.78 1.45
+09:25:17.248 [frame 1858] DATO servo 1.13 0.71 I 11.91 2.64
+09:25:17.342 [frame 1861] DATO servo 0.82 0.96 I 11.91 2.64
+09:25:17.438 [frame 1864] DATO servo 1.14 0.85 I 11.91 2.64
+09:25:17.535 [frame 1867] DATO servo 0.7 0.81 I 11.91 2.64
+09:25:17.650 [frame 1870] DATO servo 1.12 0.88 I 11.91 2.64
+09:25:17.742 [frame 1873] DATO servo 0.86 0.83 I 11.91 2.64
+09:25:17.742 [frame 1873] J = [[0.19190632975469052, 0.8204996781294481], [0.6271371484969912, -0.20307375595117397]]  J_ap = None
+09:25:17.744 [frame 1873] Servo: CONVERGIDO
+09:25:18.273 [frame 1889] DATO parabola +x 20.27615057525097 1.1352162027144883 0 0.5
+09:25:18.273 [frame 1889] AVISO Parabola 1/3 (+x): no ilumina el punto (calidad 0.50). Vuelvo al inicio
+09:25:23.854 [frame 2049] Parabola 2/3 (+y): hasta 66 grados de la vertical, D x 0.94
+09:25:27.043 [frame 2145] DATO parabola +y 24.00449858774822 0.9416078767502749 0 0.0
+09:25:27.043 [frame 2145] AVISO Parabola 2/3 (+y): no ilumina el punto (calidad 0.00). Vuelvo al inicio
+09:25:30.413 [frame 2230] Parabola 3/3 (+x+y): hasta 70 grados de la vertical, D x 1.18
+09:25:33.202 [frame 2314] Servo IBVS (PI): llevando la luz a la consigna
+09:25:33.295 [frame 2317] DATO servo 3.62 3.26 I 0.0 0.0
+09:25:33.774 [frame 2331] DATO servo 2.98 3.1 I 3.62 3.26
+09:25:34.297 [frame 2347] DATO servo 1.51 1.27 I 6.6 6.36
+09:25:34.394 [frame 2350] DATO servo 1.53 1.67 I 6.6 6.36
+09:25:34.490 [frame 2353] DATO servo 1.66 1.63 I 6.6 6.36
+09:25:34.603 [frame 2356] DATO servo 1.47 1.69 I 6.6 6.36
+09:25:34.698 [frame 2359] DATO servo 1.29 1.63 I 6.6 6.36
+09:25:34.794 [frame 2362] DATO servo 1.35 1.53 I 6.6 6.36
+09:25:34.794 [frame 2362] J = [[0.07750778563811567, 0.7672590121062679], [0.5081931552665844, -0.26021654598323873]]  J_ap = None
+09:25:34.800 [frame 2362] Servo: CONVERGIDO
+09:25:34.802 [frame 2362] Luz recuperada (parabola +x+y, a mitad): confirmando 2 s...
+09:25:36.827 [frame 2423] DATO parabola +x+y 19.56332410012244 1.1804925202845906 1 1.0
+09:25:36.827 [frame 2423] ILUMINADO de nuevo: parabola +x+y, a mitad de camino (intento 3)
+09:25:38.848 [frame 2483] AVISO: al tomar la referencia el punto solo esta iluminado al 14%
+09:25:38.856 [frame 2483] Referencia: punto 14% | anillo 5% | azul 13 | halo 15 px
+09:25:38.858 [frame 2483] Vigilando oclusion / desvio (ESPACIO para parar)
+09:25:43.866 [frame 2634] OCLUSION: punto iluminado 31% (ref 50%) -> vuelvo a la pose de iluminacion inicial
+09:25:47.788 [frame 2752] Luz recuperada (pose inicial): confirmando 2 s...
+09:25:49.839 [frame 2813] ILUMINADO de nuevo desde la pose inicial (calidad 1.00)
+09:25:49.841 [frame 2813] Vigilando oclusion / desvio (ESPACIO para parar)
+09:25:52.062 [frame 2880] La luz se ha apartado 8 px (sin oclusion): reajusto con IBVS
+09:25:52.069 [frame 2880] Servo IBVS (PI): llevando la luz a la consigna
+09:25:52.156 [frame 2883] DATO servo 7.27 1.51 I 0.0 0.0
+09:25:52.732 [frame 2900] DATO servo 2.51 -0.12 I 7.27 1.51
+09:25:52.828 [frame 2903] DATO servo 1.02 0.84 I 7.27 1.51
+09:25:52.926 [frame 2906] DATO servo -1.57 1.08 I 7.27 1.51
+09:25:53.019 [frame 2909] DATO servo -1.36 1.29 I 7.27 1.51
+09:25:53.133 [frame 2912] DATO servo -1.75 1.52 I 7.27 1.51
+09:25:53.226 [frame 2915] DATO servo -1.82 1.55 I 7.27 1.51
+09:25:53.227 [frame 2915] J = [[0.1401971915752811, 0.8417160074863285], [0.5470990008792506, -0.21400758413818377]]  J_ap = None
+09:25:53.228 [frame 2915] Servo: CONVERGIDO
+09:25:55.227 [frame 2975] Referencia: punto 100% | anillo 88% | azul 55 | halo 29 px
+09:25:55.229 [frame 2975] Vigilando oclusion / desvio (ESPACIO para parar)

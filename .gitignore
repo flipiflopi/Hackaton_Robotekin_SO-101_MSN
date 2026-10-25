@@ -1,0 +1,23 @@
+# Pesado: va a Hugging Face, no a GitHub
+outputs/
+modelo/
+*.safetensors
+*.mp4
+*.parquet
+
+# Logs de cada ejecución (solo se sube logs_demo/)
+logs/
+
+# Python / editores
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+
+# Secretos
+.env
+*.token
+
+# Descargas de Hugging Face
+dataset_tumbada/

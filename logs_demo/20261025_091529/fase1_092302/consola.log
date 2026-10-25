@@ -1,0 +1,952 @@
+INFO 2026-10-25 09:23:36 _rollout.py:219 Building rollout context...
+INFO 2026-10-25 09:23:36 \context.py:245 Loading policy from 'C:\lerobot-work\outputs\train\act_tumbada\checkpoints\018000\pretrained_model'...
+Loading weights from local directory
+INFO 2026-10-25 09:23:37 \context.py:272 Policy loaded: type=act, device=cuda
+INFO 2026-10-25 09:23:37 \context.py:300 Connecting robot (so100_follower)...
+INFO 2026-10-25 09:23:39 a_opencv.py:195 OpenCVCamera(0) connected.
+INFO 2026-10-25 09:23:40 a_opencv.py:195 OpenCVCamera(1) connected.
+INFO 2026-10-25 09:23:40 follower.py:109 mi_follower SOFollower connected.
+INFO 2026-10-25 09:23:40 \context.py:303 Robot connected: so_follower
+INFO 2026-10-25 09:23:40 \context.py:308 Captured initial robot position (6 keys)
+INFO 2026-10-25 09:23:40 \context.py:487 Creating inference engine (type=sync)...
+INFO 2026-10-25 09:23:40 \factory.py:100 Creating inference engine: sync
+INFO 2026-10-25 09:23:40 ence\sync.py:76 SyncInferenceEngine initialized (device=cuda, action_keys=6)
+INFO 2026-10-25 09:23:40 \context.py:510 Rollout context assembled successfully
+INFO 2026-10-25 09:23:40 _rollout.py:223 Rollout strategy: base
+INFO 2026-10-25 09:23:40 _rollout.py:224 Robot: so100_follower | FPS: 30 | Duration: 15.0s
+INFO 2026-10-25 09:23:40 gies\core.py:65 Starting inference engine...
+INFO 2026-10-25 09:23:40 ence\sync.py:92 Resetting sync inference state (policy + processors)
+INFO 2026-10-25 09:23:40 ence\sync.py:84 SyncInferenceEngine started (inline mode — no background thread)
+INFO 2026-10-25 09:23:40 gies\core.py:70 Inference engine started
+INFO 2026-10-25 09:23:40 gies\base.py:40 Base strategy ready
+INFO 2026-10-25 09:23:40 _rollout.py:233 Rollout setup complete, starting rollout...
+INFO 2026-10-25 09:23:40 gies\base.py:53 Base strategy control loop started
+WARNING 2026-10-25 09:23:41 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'shoulder_lift': {   'original goal_pos': -114.87696075439453,
+                         'safe goal_pos': -113.12087912087912}}
+WARNING 2026-10-25 09:23:41 gies\base.py:75 Record loop is running slower (1.6 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:41 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'shoulder_lift': {   'original goal_pos': -114.33776092529297,
+                         'safe goal_pos': -113.12087912087912}}
+WARNING 2026-10-25 09:23:41 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'shoulder_lift': {   'original goal_pos': -114.13070678710938,
+                         'safe goal_pos': -113.12087912087912}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 57.553348541259766,
+                      'safe goal_pos': 57.604395604395606}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 48.969879150390625,
+                      'safe goal_pos': 50.13186813186813}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 45.678443908691406,
+                      'safe goal_pos': 47.31868131868132}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 41.86772537231445,
+                      'safe goal_pos': 42.21978021978022}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 40.62709426879883,
+                      'safe goal_pos': 40.637362637362635}}
+WARNING 2026-10-25 09:23:42 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 35.66653823852539,
+                      'safe goal_pos': 36.505494505494504}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 26.41421890258789,
+                      'safe goal_pos': 28.59340659340659}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 24.571815490722656,
+                      'safe goal_pos': 26.92307692307692}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 23.960599899291992,
+                      'safe goal_pos': 24.46153846153846}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 20.117324829101562,
+                      'safe goal_pos': 21.912087912087912}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 14.753243446350098,
+                      'safe goal_pos': 17.164835164835164}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 13.817902565002441,
+                      'safe goal_pos': 14.967032967032967}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 10.107355117797852,
+                      'safe goal_pos': 12.681318681318682}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 8.63515567779541,
+                      'safe goal_pos': 10.043956043956044}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 6.811430931091309,
+                      'safe goal_pos': 7.582417582417584}}
+WARNING 2026-10-25 09:23:43 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'elbow_flex': {   'original goal_pos': 0.4175300598144531,
+                      'safe goal_pos': 3.010989010989011}}
+WARNING 2026-10-25 09:23:43 gies\base.py:75 Record loop is running slower (25.1 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 5.772902488708496,
+                   'safe goal_pos': 3.9364548494983276}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 6.523096561431885,
+                   'safe goal_pos': 4.137123745819398}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 7.953596115112305,
+                   'safe goal_pos': 5.207357859531772}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 15.23333740234375,
+                   'safe goal_pos': 6.076923076923077}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 15.335250854492188,
+                   'safe goal_pos': 6.946488294314381}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 17.9385929107666,
+                   'safe goal_pos': 7.882943143812709}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 18.41705894470215,
+                   'safe goal_pos': 8.551839464882942}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 25.300891876220703,
+                   'safe goal_pos': 9.555183946488294}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 29.169273376464844,
+                   'safe goal_pos': 10.290969899665551}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 29.366043090820312,
+                   'safe goal_pos': 11.227424749163879}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 29.69588851928711,
+                   'safe goal_pos': 12.297658862876254}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 31.943851470947266,
+                   'safe goal_pos': 12.832775919732443}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 34.13321304321289,
+                   'safe goal_pos': 13.96989966555184}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 34.49675750732422,
+                   'safe goal_pos': 14.705685618729097}}
+WARNING 2026-10-25 09:23:44 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 35.022003173828125,
+                   'safe goal_pos': 15.575250836120402}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 38.79584884643555,
+                   'safe goal_pos': 16.444816053511705}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 39.744110107421875,
+                   'safe goal_pos': 17.31438127090301}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 39.735992431640625,
+                   'safe goal_pos': 18.183946488294314}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 40.17961502075195,
+                   'safe goal_pos': 19.05351170568562}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 41.19930648803711,
+                   'safe goal_pos': 19.923076923076923}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 40.8587760925293,
+                   'safe goal_pos': 20.859531772575252}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 42.443050384521484,
+                   'safe goal_pos': 21.729096989966553}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 41.81382369995117,
+                   'safe goal_pos': 22.531772575250837}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 42.163330078125,
+                   'safe goal_pos': 23.468227424749163}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 42.652793884277344,
+                   'safe goal_pos': 24.337792642140467}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 43.330135345458984,
+                   'safe goal_pos': 25.207357859531772}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 43.25609588623047,
+                   'safe goal_pos': 26.076923076923077}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 42.80146026611328,
+                   'safe goal_pos': 27.013377926421406}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 43.39762878417969,
+                   'safe goal_pos': 27.816053511705686}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 42.767887115478516,
+                   'safe goal_pos': 28.75250836120401}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 33.82662582397461,
+                   'safe goal_pos': 30.357859531772576}}
+WARNING 2026-10-25 09:23:45 gies\base.py:75 Record loop is running slower (25.1 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 33.14476013183594,
+                   'safe goal_pos': 30.491638795986624}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 34.44944381713867,
+                   'safe goal_pos': 30.959866220735783}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 34.425899505615234,
+                   'safe goal_pos': 31.963210702341136}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 34.911582946777344,
+                   'safe goal_pos': 32.76588628762542}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 35.006187438964844,
+                   'safe goal_pos': 33.702341137123746}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 36.06389236450195,
+                   'safe goal_pos': 34.57190635451505}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 35.50262451171875,
+                   'safe goal_pos': 35.441471571906355}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 37.18096160888672,
+                   'safe goal_pos': 36.37792642140468}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 37.86196517944336,
+                   'safe goal_pos': 37.180602006688964}}
+WARNING 2026-10-25 09:23:45 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 38.212615966796875,
+                   'safe goal_pos': 38.05016722408027}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 30.785221099853516,
+                   'safe goal_pos': 32.919732441471574}}
+WARNING 2026-10-25 09:23:47 gies\base.py:75 Record loop is running slower (25.1 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 30.041091918945312,
+                   'safe goal_pos': 32.919732441471574}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 29.208507537841797,
+                   'safe goal_pos': 32.58528428093645}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 28.60174560546875,
+                   'safe goal_pos': 31.581939799331103}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 27.835338592529297,
+                   'safe goal_pos': 30.57859531772575}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 27.00167465209961,
+                   'safe goal_pos': 29.709030100334445}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 25.707706451416016,
+                   'safe goal_pos': 28.705685618729095}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 25.311161041259766,
+                   'safe goal_pos': 27.83612040133779}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 24.302898406982422,
+                   'safe goal_pos': 26.899665551839465}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 21.442081451416016,
+                   'safe goal_pos': 26.230769230769234}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 20.169418334960938,
+                   'safe goal_pos': 25.22742474916388}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 21.07341957092285,
+                   'safe goal_pos': 24.357859531772576}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 16.31586456298828,
+                   'safe goal_pos': 23.55518394648829}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 15.550777435302734,
+                   'safe goal_pos': 22.618729096989966}}
+WARNING 2026-10-25 09:23:47 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 14.652706146240234,
+                   'safe goal_pos': 21.949832775919734}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 13.320356369018555,
+                   'safe goal_pos': 21.08026755852843}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 12.373167037963867,
+                   'safe goal_pos': 20.277591973244146}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 11.176342010498047,
+                   'safe goal_pos': 19.47491638795987}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 10.219880104064941,
+                   'safe goal_pos': 18.672240802675585}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 9.568899154663086,
+                   'safe goal_pos': 17.93645484949833}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 8.224424362182617,
+                   'safe goal_pos': 17.066889632107024}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 7.014134407043457,
+                   'safe goal_pos': 16.39799331103679}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 5.581264972686768,
+                   'safe goal_pos': 15.595317725752508}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 5.0644659996032715,
+                   'safe goal_pos': 14.792642140468224}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 4.9211907386779785,
+                   'safe goal_pos': 13.923076923076923}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 3.0333337783813477,
+                   'safe goal_pos': 13.120401337792643}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 2.823650360107422,
+                   'safe goal_pos': 12.183946488294314}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 2.5303688049316406,
+                   'safe goal_pos': 11.381270903010032}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 1.8515777587890625,
+                   'safe goal_pos': 10.645484949832776}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 1.1277055740356445,
+                   'safe goal_pos': 10.110367892976587}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 1.3090839385986328,
+                   'safe goal_pos': 9.709030100334449}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.8473386764526367,
+                   'safe goal_pos': 9.441471571906353}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5314712524414062,
+                   'safe goal_pos': 9.240802675585284}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3730640411376953,
+                   'safe goal_pos': 9.173913043478262}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.049246788024902344,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1370105743408203,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.40553760528564453,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.0646820068359375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.06075096130371094,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.08226680755615234,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.0020780563354492188,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.10174369812011719,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.03498554229736328,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1596822738647461,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:48 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.06943416595458984,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.22711658477783203,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.08453845977783203,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4954338073730469,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4260272979736328,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4260082244873047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2754392623901367,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4261493682861328,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.7620067596435547,
+                   'safe goal_pos': 9.107023411371237},
+    'shoulder_lift': {   'original goal_pos': 3.7307090759277344,
+                         'safe goal_pos': 4.153846153846153}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5692834854125977,
+                   'safe goal_pos': 9.107023411371237},
+    'shoulder_lift': {   'original goal_pos': 2.3440933227539062,
+                         'safe goal_pos': 2.395604395604396}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.7294588088989258,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6990079879760742,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.9540138244628906,
+                   'safe goal_pos': 9.107023411371237},
+    'shoulder_lift': {   'original goal_pos': -4.312078475952148,
+                         'safe goal_pos': -3.846153846153846}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5870885848999023,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.9800996780395508,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.8064355850219727,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.13121318817138672,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 gies\base.py:75 Record loop is running slower (6.8 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.14689350128173828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.05344200134277344,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.07717704772949219,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.053793907165527344,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.03416633605957031,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.0475921630859375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.028893470764160156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.02708148956298828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.09582901000976562,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:49 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.017394065856933594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.03580188751220703,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1289958953857422,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.0635080337524414,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.08652400970458984,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.03841209411621094,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.044615745544433594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.017702102661132812,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.05605888366699219,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.01148223876953125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.021106719970703125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.0008211135864257812,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.01938343048095703,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.0866537094116211,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.0644378662109375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.030473709106445312,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.08283615112304688,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.043242454528808594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.012772560119628906,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.11998558044433594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.03723621368408203,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.11582279205322266,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.005181312561035156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.22654342651367188,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2628965377807617,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2843141555786133,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3144407272338867,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.355255126953125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.34866905212402344,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.35855960845947266,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:50 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.37198734283447266,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4145030975341797,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.19270038604736328,
+                   'safe goal_pos': 9.107023411371237},
+    'wrist_flex': {   'original goal_pos': 35.571197509765625,
+                      'safe goal_pos': 35.582417582417584}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.36730384826660156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3031129837036133,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2616090774536133,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.29695892333984375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.31598949432373047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3264322280883789,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.30438995361328125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3130502700805664,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.33275699615478516,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.31245899200439453,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3062152862548828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3036661148071289,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2489328384399414,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.23993873596191406,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2800912857055664,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.22723007202148438,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2264547348022461,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.24638843536376953,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 gies\base.py:75 Record loop is running slower (4.5 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.24448871612548828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.24855613708496094,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.22960853576660156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.27818870544433594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:51 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.25427818298339844,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.26273345947265625,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.27516937255859375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.17331218719482422,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.13084793090820312,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.1139383316040039,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.01312255859375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.021226882934570312,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.07581329345703125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.07063007354736328,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1384592056274414,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.18564796447753906,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.19773387908935547,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.22598743438720703,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.27672576904296875,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.23222923278808594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.36061763763427734,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3878040313720703,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.35479164123535156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5363941192626953,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.41692543029785156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.46149253845214844,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5446481704711914,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.521092414855957,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5083255767822266,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5896291732788086,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6404857635498047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6196498870849609,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6437597274780273,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6327590942382812,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:52 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6115341186523438,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6025314331054688,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5981073379516602,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5920209884643555,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5671358108520508,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5713033676147461,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5864419937133789,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6096343994140625,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5288400650024414,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5471715927124023,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5734024047851562,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6075716018676758,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5786266326904297,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.6022167205810547,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5888338088989258,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5637445449829102,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5808277130126953,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5657711029052734,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5847892761230469,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.576176643371582,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.561100959777832,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5673122406005859,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5637836456298828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5649080276489258,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5698843002319336,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.2094707489013672,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 gies\base.py:75 Record loop is running slower (11.2 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.23242950439453125,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.23366737365722656,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:53 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.21481800079345703,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.2640266418457031,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.2507619857788086,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.2287425994873047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.2517414093017578,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.17487525939941406,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.1563882827758789,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.13958740234375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.022672653198242188,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.07734107971191406,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.05878734588623047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.04333019256591797,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.10092353820800781,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1392040252685547,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.1665821075439453,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.18656635284423828,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2388629913330078,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.19927597045898438,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.2815074920654297,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.33428287506103516,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3155326843261719,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.43640708923339844,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3489246368408203,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.3900947570800781,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4441232681274414,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4331350326538086,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4322185516357422,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4722728729248047,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5042667388916016,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.48862552642822266,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:54 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5196495056152344,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5068368911743164,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.49528026580810547,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4940805435180664,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.49219322204589844,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4927635192871094,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.47765254974365234,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4734153747558594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4918489456176758,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5042829513549805,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4439735412597656,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4664344787597656,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.48387718200683594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.5032386779785156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.48567962646484375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4990224838256836,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4920921325683594,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4740419387817383,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4890890121459961,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.48176002502441406,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4873666763305664,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4887247085571289,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4637937545776367,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4813880920410156,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.474365234375,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.46779346466064453,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:55 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': 0.4834604263305664,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:56 ts\utils.py:121 Relative goal position magnitude had to be clamped to be safe.
+{   'gripper': {   'original goal_pos': -0.3127889633178711,
+                   'safe goal_pos': 9.107023411371237}}
+WARNING 2026-10-25 09:23:56 gies\base.py:75 Record loop is running slower (5.5 Hz) than the target FPS (30.0 Hz). Dataset frames might be dropped and robot control might be unstable. Common causes are: 1) Camera FPS not keeping up 2) Policy inference taking too long 3) CPU starvation
+INFO 2026-10-25 09:23:56 gies\base.py:59 Duration limit reached (15s)
+INFO 2026-10-25 09:23:56 ies\core.py:122 Stopping inference engine...
+INFO 2026-10-25 09:23:56 ence\sync.py:88 SyncInferenceEngine stopped
+INFO 2026-10-25 09:23:56 ies\core.py:130 Skipping return-to-initial-position (disabled by config); leaving robot in final pose.
+INFO 2026-10-25 09:23:56 ies\core.py:133 Disconnecting robot...
+INFO 2026-10-25 09:23:56 a_opencv.py:631 OpenCVCamera(0) disconnected.
+INFO 2026-10-25 09:23:58 a_opencv.py:631 OpenCVCamera(1) disconnected.
+INFO 2026-10-25 09:23:58 follower.py:238 mi_follower SOFollower disconnected.
+INFO 2026-10-25 09:23:58 gies\base.py:85 Base strategy teardown complete
+INFO 2026-10-25 09:23:58 _rollout.py:242 Rollout finished
